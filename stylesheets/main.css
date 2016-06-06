@@ -1,0 +1,165 @@
+/* Main style sheet */
+
+body {
+    font-family: arial, sans-serif;
+    background-color: #FFFFFF;
+	color: #000000;
+}
+
+#main {
+	border: none;
+    width: 90%;
+    padding: 10px;
+	margin: 0px auto;
+}
+
+#copyright {
+	font-size: x-small;
+	width: 90%;
+	margin: 0px auto;
+}
+
+#copyright a:link, #copyright a:visited, #copyright a:active {
+	color: #000000;
+}
+
+#copyright a:hover {
+	text-decoration: none;
+}
+
+#main a:link, #main a:visited, #main a:active {
+	color: #000000;
+}
+
+#main a:hover {
+	color: #000000;
+	background-color: #CCCCCC;
+	text-decoration: none;
+}
+
+/* Extra styles for the main page */
+
+#menu {
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 250px;
+	padding: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float:left;
+}
+
+#menu img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#menu a:link, #menu a:active, #menu a:visited {
+    color: #DDDDDD;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#menu a:hover {
+    background-color: #DDDDDD;
+	color: #222222;
+	font-weight: normal;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #808080;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #D0D0D0;
+  text-decoration: none;
+}
+
+.welcome:first-letter {
+	font-size: 200%;
+}
+
+h1 {
+	font-size: xx-large;
+	margin: 0 0 0 0px;
+}
+
+h2 {
+    font-size: large;
+    color: #707070;
+    font-weight: normal;
+	margin: 0 0 0 0px;
+}
+
+h3 {
+	font-size: large;
+    font-weight: bold;
+	margin: 0 0 0 0px;
+}
+
+table {
+/*	width: 95%; */
+}
+
+td {
+	vertical-align: top;
+}
+
+p.nomargin {
+	margin: 0 0 0 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+        text-decoration: underline;
+}
+
+.italic {
+        font-style: italic;
+}
+
+.oblique {
+        font-style: oblique;
+}
+
+.photo_center {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        border:1px solid black;
+}
+
+.photo_right {
+        float:right;
+        margin-left:10px;
+        border:1px solid black;
+}
+
+ul {
+	margin: 0 0 0 0px;
+}
